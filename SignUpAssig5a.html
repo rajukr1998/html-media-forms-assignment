@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <fieldset>
+        <legend>User Detail</legend>
+            <form action="" method="get" name="sign-up">
+                <label for="firstname">First Name</label>
+                <input placeholder="firstname" type="text" id="firstname" name="firstname" required min="3"></br>
+                <label for="lastname">Last Name</label>
+                <input placeholder="lastname" type="text" id="lastname" name="lastname" min="3"></br>
+                <label for="email">Email</label>
+                <input placeholder="email" type="email" name="email" id="email" required min="3"></br>
+                <label for="password">Password</label>
+                <input placeholder="password" type="password" name="password" id="password" required></br>
+                <label for="conpassword">Confirm Password</label>
+                <input placeholder="conpassword" type="conpassword" name="conpassword" id="conpassword" required></br>
+                <label for="age">Age</label>
+                <input placeholder="age" type="number" name="age" id="age" min="0" max="150"></br>
+                <label for="gender">Gender</label>
+                <select name="selected" id="">
+                    <option value="gender">Male</option>
+                    <option value="gender">Female</option>
+                </select></br>
+                <label for="termcondition">Agree To Term And Condition</label>
+                <input type="checkbox" name="termcondition" id="termcondition" required></br>
+                <input type="Submit" name="sign-up">
+            </form>
+        
+    </fieldset>
+</body>
+</html>
